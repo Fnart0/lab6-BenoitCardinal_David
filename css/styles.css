@@ -149,3 +149,32 @@
         border-top-right-radius: 15px;
 
     }
+
+    /*---------- Nav ----------*/
+
+    .media {
+
+        background-color: rgb(15, 38, 49);
+
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+        position: fixed;
+        top: 200px;
+        left: 0;
+    }
+
+    .media img {
+
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+
+    }
+
+    .media ul {
+
+        list-style-type: none;
+        position: relative;
+
+    }
