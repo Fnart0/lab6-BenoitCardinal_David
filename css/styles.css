@@ -1,0 +1,35 @@
+/*  ------------------------------
+    Generic
+    ------------------------------  */
+
+    html {
+        box-sizing: border-box;
+        font-size: 62,5%;
+    }
+
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+
+/*  ------------------------------
+    Elements
+    ------------------------------  */
+
+    /*--------- Base ---------*/
+
+    body {
+
+        font: #eca136 700 "Averia Serif Libre", serif;
+        text-decoration: none;
+        background-color: rgb( 9, 26, 33)
+
+    }
+
+    .wrapper {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    /*---------- Éléments texte ----------*/
