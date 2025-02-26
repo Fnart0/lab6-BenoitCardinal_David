@@ -4,7 +4,7 @@
 
     html {
         box-sizing: border-box;
-        font-size: 62,5%;
+        font-size: 62.5%;
     }
 
     *,
@@ -17,11 +17,14 @@
     Elements
     ------------------------------  */
 
-    /*--------- Base ---------*/
+    /*---------- Base ----------*/
 
     body {
 
-        font: #eca136 700 "Averia Serif Libre", serif;
+        font-family: "Averia Serif Libre", serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #eca136;
         text-decoration: none;
         background-color: rgb( 9, 26, 33)
 
@@ -33,3 +36,34 @@
     }
 
     /*---------- Éléments texte ----------*/
+
+    h1 {
+
+        font-size: 40px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+/*  ==============================
+    Components
+    ==============================  */
+
+    /*---------- Header ----------*/
+
+    header {
+
+        width: 1000px;
+        background: rgb(15, 38, 49);
+        opacity: 95%;
+
+        position: fixed;
+        left: 25.9%;
+        top: 0;
+
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+    }
