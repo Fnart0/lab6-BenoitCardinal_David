@@ -47,6 +47,13 @@
 
     }
 
+    p {
+
+        font-size: 16px;
+        text-transform: uppercase;
+
+    }
+
 /*  ==============================
     Components
     ==============================  */
@@ -122,5 +129,23 @@
     .contenu .bouton:hover {
 
         cursor: pointer;
+
+    }
+
+    /*---------- footer ----------*/
+
+    footer .wrapper{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 75px;
+
+        background: rgb(15, 38, 49);
+        opacity: 95%;
+
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
 
     }
