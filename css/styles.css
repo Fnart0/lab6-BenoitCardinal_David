@@ -60,10 +60,67 @@
         opacity: 95%;
 
         position: fixed;
-        left: 25.9%;
+        left: 500px;
         top: 0;
+        z-index: 1;
 
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
+
+    }
+
+    /*---------- Contenu ----------*/
+
+    .contenu {
+
+        max-width: 925px;
+        margin: 100px auto 0 auto;
+
+    }
+
+    .contenu .photo {
+
+        max-width: 100%;
+
+    }
+
+    .contenu ul {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 45px;
+
+        list-style-type: none;
+
+        padding: 0;
+
+    }
+
+    .contenu li {
+
+        padding: 20px;
+        background-color: rgb(15, 38, 49);
+
+        border-radius: 10px;
+
+        position: relative;
+
+    }
+
+    .contenu .bouton {
+        
+        background-color: white;
+        opacity: 50%;
+
+        border-bottom-left-radius: 5px;
+
+        position: absolute;
+        right: 20px;
+
+    }
+
+    .contenu .bouton:hover {
+
+        cursor: pointer;
 
     }
